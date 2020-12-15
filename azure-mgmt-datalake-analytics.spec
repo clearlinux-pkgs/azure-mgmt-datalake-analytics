@@ -4,7 +4,7 @@
 #
 Name     : azure-mgmt-datalake-analytics
 Version  : 0.6.0
-Release  : 8
+Release  : 9
 URL      : https://files.pythonhosted.org/packages/6f/e9/91da6cea4cccb268237e7f16bddefb2dbb1507f75b78c13a79eae16eb1cc/azure-mgmt-datalake-analytics-0.6.0.zip
 Source0  : https://files.pythonhosted.org/packages/6f/e9/91da6cea4cccb268237e7f16bddefb2dbb1507f75b78c13a79eae16eb1cc/azure-mgmt-datalake-analytics-0.6.0.zip
 Summary  : Microsoft Azure Data Lake Analytics Management Client Library for Python
@@ -12,9 +12,9 @@ Group    : Development/Tools
 License  : MIT
 Requires: azure-mgmt-datalake-analytics-python = %{version}-%{release}
 Requires: azure-mgmt-datalake-analytics-python3 = %{version}-%{release}
-Requires: azure-common
+Requires: azure-common~
 Requires: msrestazure
-BuildRequires : azure-common
+BuildRequires : azure-common~
 BuildRequires : buildreq-distutils3
 BuildRequires : msrestazure
 
@@ -61,7 +61,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1588789966
+export SOURCE_DATE_EPOCH=1607993190
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
